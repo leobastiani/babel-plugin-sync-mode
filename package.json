@@ -1,6 +1,5 @@
 {
   "name": "babel-plugin-sync-mode",
-  "version": "1.0.0",
   "description": "Automatically await every expression in async function declaring it as sync",
   "main": "index.js",
   "repository": "git@github.com:leobastiani/babel-plugin-sync-mode.git",
@@ -27,5 +26,6 @@
   },
   "scripts": {
     "test": "jest"
-  }
+  },
+  "version": "1.0.0"
 }
