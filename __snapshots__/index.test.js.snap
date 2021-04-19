@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`works 1`] = `
+"async function test() {
+  sync: {
+    await console.log(\\"I should be awaited\\"); // a await goes here
+
+    await console.log( // a await goes here as well
+    await (() => {
+      console.log(\\"I should not be awaited\\");
+    })()); // a await goes here
+
+    await console.log( // a await goes here as well
+    await (async () => {
+      await console.log(\\"I should not be awaited\\");
+    })());
+
+    async: {
+      console.log(\\"I should not be awaited\\");
+
+      sync_: {
+        await console.log(async () => {
+          await console.log(\\"I should be awaited\\");
+        }, () => {
+          console.log(\\"I should not be awaited\\");
+        });
+      }
+    }
+  }
+
+  console.log(\\"I should not be awaited\\");
+}"
+`;

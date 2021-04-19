@@ -6,7 +6,7 @@ function getFirstWord(name) {
   return "";
 }
 
-export default function ({ types: t }) {
+module.exports = function ({ types: t }) {
   return {
     name: "sync-mode",
     visitor: {
@@ -43,4 +43,4 @@ export default function ({ types: t }) {
       },
     },
   };
-}
+};
