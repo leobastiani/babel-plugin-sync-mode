@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-sync-mode",
+  "version": "1.0.0",
+  "description": "Automatically await every expression in async function declaring it as sync",
+  "main": "index.js",
+  "repository": "git@github.com:leobastiani/babel-plugin-sync-mode.git",
+  "author": "Leonardo Guarnieri de Bastiani <leogbastiani@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "async",
+    "await",
+    "test",
+    "promise",
+    "babel",
+    "automatic",
+    "synchronous",
+    "asynchronous"
+  ],
+  "homepage": "https://github.com/leobastiani/babel-plugin-sync-mode",
+  "bugs": {
+    "url": "https://github.com/leobastiani/babel-plugin-sync-mode/issues"
+  }
+}
